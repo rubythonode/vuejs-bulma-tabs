@@ -5,8 +5,8 @@
 
 Well, like any vue component you will nedd to register it in your app js file.
 ```js
-Vue.component('tabs', require('./components/Tabs.vue'));
-Vue.component('tab', require('./components/Tab.vue'));
+Vue.component('tabs', require('./path/to/your/component/Tabs.vue'));
+Vue.component('tab', require('./path/to/your/component/Tab.vue'));
 ```
 
 And in your views you just wrap as many tab components as you wish inside the tabs component, like so:
